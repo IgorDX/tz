@@ -1,0 +1,91 @@
+.cart{
+padding-left: 80px;
+padding-top: 80px;
+.home-icon{
+  padding-right: s5px;
+  display: flex;
+  align-items: center;
+}
+.whishlist-holder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-title{
+  padding-top: 20px;
+  padding-bottom: 20px  ;
+  opacity: 0.8;
+}
+.number-of-products{
+  opacity: 0.5;
+}
+}
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  .custom-buttons{
+
+  display: flex;
+  gap: 20px;
+  .button-gray{
+    background-color: rgba(178,186,199, 0.8);
+  }
+  .trash-button{
+    padding: 12px;
+    border-radius: 10px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+   .all-products{
+    color: white;
+
+   }
+    div{
+      padding-right: 10px;
+    }
+
+  }
+  
+}
+.new-category-btn{
+  border: 1px solid rgb(64, 94, 255);
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(64, 94, 255);
+  font-weight: 700;
+  background-color: #ffff;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    opacity: 1;
+  }
+}
+}
+
+.bottom-flex{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  div{
+    margin-bottom: 4px;
+    margin-left: 24px;
+    font-size: 20px;
+    color: rgb(64,94,255);
+  }
+}
